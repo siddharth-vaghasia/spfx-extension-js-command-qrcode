@@ -1,6 +1,13 @@
 ## js-command-document-qrcode
 
-This is where you include your WebPart documentation.
+This is SPFx extension which will add a command set to SharePoint list or library to generate QR code for selected item. 
+
+Feel free to reach out on [siddh_me](https://twitter/siddh_me) for any queries/help.
+
+* Please refer this [link](https://www.c-sharpcorner.com/article/generate-document-qr-code-using-spfx-command/) on How to build this from Scratch
+
+![Output](1.png?raw=true "Output")
+
 
 ### Building the code
 
