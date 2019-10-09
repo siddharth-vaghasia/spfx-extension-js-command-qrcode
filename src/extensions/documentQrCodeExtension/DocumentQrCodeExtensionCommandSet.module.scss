@@ -1,0 +1,36 @@
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  .mainpopup {
+    text-align: center;
+  }
+  .popup {
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    position: relative;
+    transition: all 5s ease-in-out;
+
+    .h2 {
+      margin-top: 0;
+      color: #333;
+      font-family: Tahoma, Arial, sans-serif;
+    }
+    .content {
+      overflow: auto;
+    }
+  }
+  
+  
